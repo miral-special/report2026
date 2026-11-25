@@ -628,6 +628,13 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .deck .closing .end-logos .logo-cc{width:114px!important}
 html body .deck .ik .ik-list{display:grid!important;grid-template-columns:max-content max-content minmax(max-content,1fr) minmax(max-content,1fr);column-gap:10px;row-gap:6px}
 html body .deck .ik .ik-list>div{grid-column:1/-1!important;grid-template-columns:subgrid!important}
+/* 소책자 작업 반영: 글자색 위계·회색 통일·같은 역할 같은 크기 */
+html body .deck .page .desc{color:#121615!important}
+html body .deck .page .voice,html body .deck .page .fam,html body .deck .light .fam{color:#3a4442!important}
+html body .deck .rows .l,html body .deck .ik .ik-list .n1,html body .deck .ik .ik-list .n2,html body .deck .allp .chips span,html body .deck .pair p,html body .deck .ev2 p{color:#3a4442!important}
+html body .deck .rows.money .l{font-size:12.5px!important}
+html body .deck .ev2 h3,html body .deck .pair h3{font-size:15px!important}
+html body .deck .ev2 p,html body .deck .pair p{font-size:13px!important;line-height:1.55!important}
 /* 표지 · 그림이 아래에서 스며들기 */
 .page:first-child{position:relative;overflow:hidden;justify-content:flex-start!important;padding-top:104px!important;background:radial-gradient(circle at 100% 0%, rgba(120,214,182,.55), transparent 45%),#fff!important}
 .page:first-child > .in{position:relative;z-index:2}
